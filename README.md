@@ -3,7 +3,11 @@
 ## Installation 
 
 1. Download and install the [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-2. Clone the repository into the `src/` directory.
+2. Clone the [mcspronko/invoice-system repository](https://github.com/mcspronko/invoice-system-docker) into the `src/` directory.
+```bash
+cd invoice-system-docker/
+git clone git@github.com:mcspronko/invoice-system.git src/
+```
 
 3. Run the composer command
 ```bash
@@ -11,11 +15,22 @@ cd src/
 composer install 
 ```
 
-3. Build docker containers
+4. Build docker containers
 ```bash
 docker compose build
 ```
-4.
+
+5. Build and start containers in the background 
 ```bash
-docker-compose up
+docker-compose up -d
+```
+
+6. Stop containers
+```bash
+docker compose stop
+```
+
+7. Start containers
+```bash
+docker compose start
 ```
