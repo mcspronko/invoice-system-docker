@@ -3,7 +3,7 @@
 ## Installation 
 
 1. Download and install the [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-2. Clone the [mcspronko/invoice-system repository](https://github.com/mcspronko/invoice-system-docker) into the `src/` directory.
+2. Clone the [Invoice Management System](https://github.com/mcspronko/invoice-system-docker) project repository into the `src/` directory.
 ```bash
 cd invoice-system-docker/
 git clone git@github.com:mcspronko/invoice-system.git src/
