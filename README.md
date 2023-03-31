@@ -15,22 +15,26 @@ cd src/
 composer install 
 ```
 
-4. Build docker containers
+4. Build and start containers in the background 
 ```bash
-docker compose build
+docker compose up -d
 ```
 
-5. Build and start containers in the background 
-```bash
-docker-compose up -d
-```
+Navigate to the http://localhost in a browser.
 
-6. Stop containers
+### Additional Docker commands
+
+1. Stop containers
 ```bash
 docker compose stop
 ```
 
-7. Start containers
+2. Start containers
 ```bash
 docker compose start
+```
+
+3. Delete containers
+```bash
+docker compose down 
 ```
