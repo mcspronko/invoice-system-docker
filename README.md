@@ -3,7 +3,7 @@
 ## Installation 
 
 1. Download and install the [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-2. Clone current repository
+2. Clone this repository
 ```bash
 git clone git@github.com:mcspronko/invoice-system-docker.git
 ```
